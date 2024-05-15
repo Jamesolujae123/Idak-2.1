@@ -1,0 +1,70 @@
+
+.Top-nav{
+  display: flex;
+  padding-block:20px ;
+  justify-content: space-around;
+ align-items: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-links {
+        display: none;
+    }
+.sign-in {
+    display: none;
+}
+
+
+.nav-links.responsive {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .nav-links.responsive a {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .idak-pic {
+    width: 120px;
+  }
+  .posts-lit i{
+    padding-right: 10px;
+  }
+  .posts-lit {
+    padding-block: 12px;
+  }
+.Top-nav {
+    justify-content: space-between;
+    padding-inline: 9px;
+    padding-block: 14px;
+}
+.dropdown a {
+    font-size: 25px;
+} 
+
+.cont-3 {
+    align-items: center;
+}
+
+.cont-3 a {
+    padding-top: 7px;
+}
+}
+
+@media screen and (min-width: 601px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+.dropdown a {
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+    color: chocolate;
+}

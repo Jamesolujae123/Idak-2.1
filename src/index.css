@@ -1,0 +1,738 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto ;
+}
+
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  color: chocolate;
+}
+
+.sign-in{
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  color: #E93740;
+}
+
+.sign-in i {
+  font-weight: 900;
+  margin-right: 15px;
+}
+
+.cont-3 {
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+  padding-inline: 20px;
+}
+
+.posts-lit{
+  border: none;
+  background: #E93740;
+  padding-block: 15px;
+  padding-inline: 20px;
+  border-radius: 30px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  color: white;
+}
+
+.posts-lit:hover {
+  background: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.sign-in a {
+  font-family: "Lexend", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  color: #E93740;
+}
+
+.sign-in a:hover {
+  color: black;
+}
+
+.container {
+  background-image: url("../src/assets/young-family-with-kids-travelling-by-car-stopped-field\ 1.png");
+background-size: cover;
+
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.main-text h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 64px;
+  font-style: normal;
+  padding-block: 20px;
+}
+
+.main-text p {
+  font-family: "Lexend", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 32px;
+  font-style: normal;
+  padding-block: 20px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 25px;
+  margin-block: 20px;
+}
+
+.buttons .btn-p {
+  border: none;
+  background: #E93740;
+  padding-block: 7x;
+  padding-inline: 20px;
+  border-radius: 30px;
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+}
+
+.buttons .btn {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  padding-block: 7px;
+  padding-inline: 20px;
+  border-radius: 30px;
+  background: white;
+  color: black;
+  border: none; 
+}
+
+.search {
+display: flex;
+width: 594px;
+height: 70px;
+background-color: white;
+border-radius:50px ;
+margin-bottom: 200px;
+}
+
+.search input {
+ margin-top: 20px;
+ margin-left: 20px;
+  border: none;
+  height: 30px;
+  width: 250px;
+}
+
+.loc {
+height: 50px;
+width: 170px;
+}
+
+
+.sch:focus {
+  outline: none;
+}
+
+.nxt {
+  margin-block: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .nxt-2{
+    margin-block: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+  }
+
+
+
+.nxt h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  padding-block: 20px;
+}
+
+.nxt-2 h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  padding-block: 20px;
+}
+
+
+.main-text b {
+  text-decoration: none;
+  color: #E93740;
+}
+
+.search i {
+  margin-left: 21px;
+  margin-top: 27px;
+}
+
+
+.svs {
+  display: flex;
+  gap: 20px;
+  width: 1200px;
+}
+
+.svs img {
+  height: 50px;
+  width: 400px;
+}
+
+.top-cont {
+  margin-bottom: 30px;
+  display: flex;
+  column-gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-cont-2 {
+  margin-bottom: 30px;
+  display: flex;
+  column-gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sech {
+  height: 40px;
+  width: 40px;
+}
+
+.sec-comp {
+  padding-left: 22px;
+  margin-block: 2px;
+  border: 1px #E6E6E6;
+  border-left-style: solid;
+  padding-right: 10px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.svs-2{
+  display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+h2 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+  padding-block: 20px;
+}
+
+
+.svs-2 img {
+  height: 30px;
+  width: 170px;
+}
+
+.house {
+  border: 1px solid #E6E6E6;
+  border-radius: 10px;
+  margin-block: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rentImgDiv{
+position: relative;
+overflow-y: hidden;
+}
+
+.hse {
+  width: 380px;
+  position: relative;
+}
+
+
+
+.btm-stuff {
+  display: flex;
+  padding-block: 15px;
+ justify-content: space-between;
+ padding-inline: 10px;
+  align-items: baseline;
+  border: 1px #E6E6E6;
+  border-top-style: solid;
+}
+
+.mid-tin{
+  display: flex;
+
+  justify-content: space-between;
+  padding-block: 15px;
+  padding-inline: 14px;
+}
+
+.houses {
+  padding-inline: 20px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.houses-2 {
+  padding-inline: 20px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.int{
+ display: flex;
+ flex-direction: column;
+  height: 500px;
+ width: 100%;
+}
+
+.insight-tin {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 35px;
+  font-style: normal;
+}
+
+.price-h{
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.Bathrooms{
+  padding-inline: 10px;
+  border: 2px #030303;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+
+
+.rate { 
+  width: 300px;
+  height: 200px; 
+  overflow-y: hidden;
+  border: none;
+}
+
+.rate img {
+  width: 100%;
+  height: 100%;
+}
+
+.name-h {
+  padding-left: 15px;
+  padding-block: 10px;
+}
+
+
+.price {
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+  color: #E93740;
+}
+
+.month {
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.insighting {
+ background-color: #F4F4F4;
+ display: flex;
+ width: 100vw;
+ padding-block: 100px;
+ padding-inline: 80px;
+}
+
+.prof-ciont{
+  width: 170px;
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3px;
+  margin-left: 13px;
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.text span {
+  font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+.locations {
+  margin-top: 70px;
+  margin-bottom: 30px;
+
+}
+
+.loc-cont {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+row-gap: 20px;
+column-gap: 20px;
+}
+
+.nxt-3 {
+  margin-left: 30px;
+  padding-inline: 30px;
+  padding-bottom: 50px;
+}
+
+.loc-left {
+  width: 250px;
+}
+
+.loc-mid-1{
+  width: 200px;
+}
+
+.loc-mid-2{ width: 200px;}
+
+.loc-mid-3{ width: 200px;}
+
+.loc-mid-4{ width: 200px;}
+
+.loc-right {
+  width: 250px;
+}
+
+.left {
+  width: max-content;
+}
+
+.right {
+  width: max-content;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  width: max-content;}
+
+  .mid-1{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+  }
+
+  .mid-2 {
+    display: flex;
+    gap: 15px;
+  }
+
+  .art1 {
+    width: 630px;
+    margin-bottom: 30px;
+  }
+
+  .featured-a{
+    display: flex;
+    gap: 30px;
+  }
+
+  .Article {
+    padding-inline: 40px;
+    margin-bottom: 60px;
+  }
+
+  .art2{
+    width: 200px;
+    height: 151px;
+  }
+
+  .art3{width: 200px;
+    height: 151px;
+  }
+
+  .art4{width: 200px;
+    height: 151px;
+  }
+
+  .art5{width: 200px;
+    height: 151px;
+  }
+
+  .mid-art {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .rent img {
+    
+    width: 100%;
+  }
+  .mid-art-abt{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #F4F4F4;
+    padding-top: 140px;
+  }
+
+  .footer-icon {
+    margin-top: 30px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 50px;
+  }
+
+  .footer-iconn{
+    padding: 10px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .footer-iconn-f {
+    padding-block: 5px;
+    padding-inline: 14px;
+    color: #fff;
+    border-radius: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .footer-first {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-first h6 {
+    padding-top: 20px;
+    width: 250px;
+  }
+
+  .f-logo{ 
+    width: 160px;
+    height: 51px;
+  }
+
+  .footer-second {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-second a {
+    text-decoration: none;
+    color: #030303;
+  }
+
+  .footer-second a:hover {
+    color: chocolate;
+  }
+
+  .footer-third {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-third a {
+    text-decoration: none;
+    color: #030303;
+  }
+  
+  .footer-third a:hover {
+    color: chocolate;
+  }
+
+  .footer-forth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-forth a {text-decoration: none;
+    color: #030303;}
+
+  .footer-forth a:hover {
+    color: chocolate;
+  }
+
+  .footer-fifth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .email-input {
+    border: 1px solid #CCCCCC;
+    padding: 14px;
+    border-radius: 40px;
+  }
+
+  .subscribe-btn {
+    padding-block: 18px;
+    border-radius: 30px;
+    background-color: #E93740;
+    border: none;
+    color: white;
+  }
+
+  .footer h3 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    color: #E93740;
+  }
+
+  .footer h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 12px;
+    font-style: normal;
+  } 
+
+  .footer a {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+  }
+  
+.sub-sec {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.date { font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 12px;
+  color: #E93740;
+  font-style: normal;}
+
+.topic{font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  margin-block: 20px;
+  font-size: 17px;
+
+  font-style: normal;}
+
+.note{font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 13px;
+  color: #8B8B8B;
+  font-style: normal;}
+
+
+  .name-h h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;}
+
+  .mid-tin span {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  }
+  

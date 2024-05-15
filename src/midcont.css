@@ -1,0 +1,113 @@
+@media screen and (max-width: 600px) {
+.main-text{
+    display: flex;
+ flex-direction: column;
+ width: 300px;
+}
+
+.main-text h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 42px;
+    font-style: normal;
+    padding-block: 20px;
+  }
+
+
+  .main-text p {
+    font-family: "Lexend", sans-serif;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    width: 276px;
+    font-style: normal;
+    padding-block: 20px;
+    margin-bottom: 30px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .search-r{
+    background-color: white;
+    border-radius: 30px;
+    padding-block: 20px;
+    padding-inline: 10px;
+
+  }
+
+  .search-r input {
+    width: 350px;
+    border: none;
+  }
+
+  .search-r input {
+    padding-left: 15px;
+    outline: none;
+  }
+.search-r i {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.loc-r {
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    background-color: white;
+    border-radius: 30px;
+    padding-block: 20px;
+    padding-inline: 10px;
+    color: rgba(128, 128, 128, 0.514);
+}
+
+.resize-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+    
+.sel span {
+    margin-left: 20px;
+}
+
+.search-btn-r {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.l {
+    border: none;
+    border-radius: 30px;
+    padding-block: 15px;
+    padding-inline: 140px;
+    background-color: #E93740;
+}
+
+.l:hover {
+    background-color: black;
+    color: white;
+}
+
+.l i {
+    padding-right: 10px;
+}
+}
+
+
+@media screen and (min-width: 601px){
+    .resize-cont {
+        display: none;
+    }
+}
+
+
+
+

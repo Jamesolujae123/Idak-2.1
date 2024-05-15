@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+    .loc-cont {
+        display: none;
+    }
+
+.locat {
+    position: relative;
+    opacity: 90%;
+    
+}
+.locat img {
+    filter: brightness(65%);
+    margin-bottom: 15px;
+}
+
+    .loc-name {
+        position: relative;
+        bottom: 53px;
+        color: white;
+        left: 20px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        text-decoration: none;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        filter: brightness(100%);
+        font-size: 20px;
+        font-style: normal;
+    }
+
+}
+
+@media screen and (min-width: 601px) {
+    .loc-cont-r {
+        display: none;
+    }
+    
+}

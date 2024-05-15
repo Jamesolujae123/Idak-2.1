@@ -1,0 +1,16 @@
+.rent {
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .houses {
+        display: flex;
+        flex-direction: column;
+    }
+    .houses-2{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width:600px){
+    .insighting {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .int  {
+        align-self: center;
+         font-size: 30px;
+    }
+ 
+    .insight-tin {
+        font-size: 30px;
+    }
+    .sec-comp {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+    .Article {
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+
+    }
+
+    .featured-a {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .art1 {
+        width: 430px;
+        height: 300px;
+    }
+
+    .art2 {
+        width: 430px;
+        height: 200px;
+    }
+    .art3 {
+        width: 430px;
+        height: 200px;
+    }
+
+    .art4 {
+        width: 430px;
+        height: 200px;
+    }
+
+    .art5 {
+        width: 430px;
+        height: 200px;
+    }
+
+    .mid-art {
+        display: flex;
+        flex-direction: column;
+padding-block: 30px;
+    }
+    .mid-art-abt {
+        width: 430px;
+    }
+
+    .topic {
+        font-size: 20px;
+    }
+
+    .note {
+        font-size: 16px;
+    }
+}
