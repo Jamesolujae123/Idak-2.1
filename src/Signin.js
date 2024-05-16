@@ -28,7 +28,7 @@ const Signin = () => {
       <form onSubmit={handleSubmit} className="signin-form">
         <h2>Create An Account</h2>
         <div className="form-inputs">
-          <div>
+          <div className="inputs">
             <label>Email</label>
             <input
               type="email"
@@ -37,7 +37,7 @@ const Signin = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="inputs">
             <label>Name</label>
             <input
               type="text"
@@ -46,7 +46,7 @@ const Signin = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="inputs">
             <label>Phone Number</label>
             <input
               type="tel"
@@ -55,7 +55,7 @@ const Signin = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="inputs">
             <label>Password</label>
             <input
               type="password"
@@ -64,7 +64,7 @@ const Signin = () => {
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="inputs">
             <label>Confirm Password</label>
             <input
               type="password"
