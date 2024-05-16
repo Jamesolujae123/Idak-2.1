@@ -34,7 +34,7 @@ return (
             <div className="houses">
                                 <div className="house">
 
-                                   <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
+                                   <img class="for-rent" src={forrent} alt="for-rent" />
                                    <div><img className="hse" src={house1} alt="hosue1" /></div>
                                     <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
                                     <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
@@ -44,7 +44,7 @@ return (
 
                                 <div className="house">
 
-                                   <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
+                                   <img class="for-rent" src={forrent} alt="for-rent" />
                                    <div><img className="hse" src={house2} alt="hosue2" /></div>
                                     <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
                                     <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
@@ -54,7 +54,7 @@ return (
 
                                 <div className="house">
 
-                                   <div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
+                                   <img class="for-rent" src={forrent} alt="for-rent" />
                                    <div><img className="hse" src={house3} alt="hosue3" /></div>
                                     <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
                                     <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
@@ -67,7 +67,7 @@ return (
             <div className="houses-2">
 <div className="house">
 
-<div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
+<img class="for-rent" src={forrent} alt="for-rent" />
 <div><img className="hse" src={house1} alt="hosue1" /></div>
  <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
  <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
@@ -77,7 +77,7 @@ return (
 
 <div className="house">
 
-<div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
+<img class="for-rent" src={forrent} alt="for-rent" />
 <div><img className="hse" src={house2} alt="hosue2" /></div>
  <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
  <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
@@ -87,7 +87,7 @@ return (
 
 <div className="house">
 
-<div><img class="for-rent" src={forrent} alt="for-rent" /></div> 
+<img class="for-rent" src={forrent} alt="for-rent" />
 <div><img className="hse" src={house3} alt="hosue3" /></div>
  <div className='price-h'><span class="price">85,000 LKR</span> <span class="month">/Month</span></div>
  <div className='name-h'><h4>Luxury villa in Rego Park</h4></div>
