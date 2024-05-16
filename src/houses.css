@@ -40,3 +40,30 @@
     top: 52px;
     left: 244px;
 }
+
+
+@media screen and (max-width: 400px) {
+
+    .hse {
+        width: 300px;
+    }
+    
+    .house {
+        width: 300px;
+    }
+
+    .for-rent {
+        width: 70px;
+        z-index: 99;
+        position: relative;
+        top: 40px;
+        left: 220px;
+    }
+    
+    .mid-tin span {
+        font-size: 12px;
+    }
+    .nxt-2 {
+        padding-left: 30px;
+    }
+}
