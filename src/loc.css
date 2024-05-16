@@ -40,3 +40,10 @@
     }
     
 }
+
+
+@media screen and (max-width: 400px) {
+    .locat img {
+        width: 300px;
+    }
+}
