@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+
+    .top-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .svs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
