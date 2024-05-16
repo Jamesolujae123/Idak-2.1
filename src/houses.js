@@ -28,7 +28,7 @@ return (
                                <img src={pic5} alt="pic5" />
                                <img src={pic6} alt="pic6" />
                                <img src={pic7} alt="pic7" />
-                               <img src={pic8} alt="pic8" />                     
+                               <img className="pic-8" src={pic8} alt="pic8" />                     
             </div>
 
             <div className="houses">
