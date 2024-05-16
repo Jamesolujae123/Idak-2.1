@@ -27,11 +27,11 @@ function Loc () {
 
                  <div className='loc-cont-r'>
                     <div className='locat'><img className='locatimg' src={loc1} alt="loc1" /><span className='loc-name'>Kandy</span></div>
-                    <div className='locat'><img className='locatimg' src={loc2} alt="loc2" /></div> 
-                    <div className='locat'><img className='locatimg' src={loc3} alt="loc3" /></div> 
-                    <div className='locat'><img className='locatimg' src={loc4} alt="loc4" /></div> 
-                    <div className='locat'><img className='locatimg' src={loc5} alt="loc5" /></div> 
-                    <div className='locat'><img className='locatimg' src={loc6} alt="loc6" /></div> 
+                    <div className='locat'><img className='locatimg' src={loc2} alt="loc2" /><span className='loc-name'>Anuradhapura</span></div> 
+                    <div className='locat'><img className='locatimg' src={loc3} alt="loc3" /><span className='loc-name'>Badulla</span></div> 
+                    <div className='locat'><img className='locatimg' src={loc4} alt="loc4" /><span className='loc-name'>Gampaha</span></div> 
+                    <div className='locat'><img className='locatimg' src={loc5} alt="loc5" /><span className='loc-name'>Jaffna</span></div> 
+                    <div className='locat'><img className='locatimg' src={loc6} alt="loc6" /><span className='loc-name'>Colombo</span></div> 
                  </div>
          </div>
         </>
